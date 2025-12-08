@@ -1,0 +1,7 @@
+{
+  "name": "fliesenleger-stellenangebote.de",
+  "description": "Die führende Plattform für Fliesenleger-Jobs und Personalsuche in Deutschland. KI-optimiert und lokal vernetzt.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
