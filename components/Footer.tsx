@@ -39,8 +39,8 @@ const Footer: React.FC<FooterProps> = ({ onOpenImpressum }) => {
             <h4 className="text-white font-semibold mb-4">Rechtliches</h4>
             <ul className="space-y-2 text-sm">
               <li><button onClick={onOpenImpressum} className="hover:text-white transition-colors">Impressum & Kontakt</button></li>
-              <li><a href="#" className="hover:text-white transition-colors">Datenschutz</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">AGB</a></li>
+              <li><button onClick={onOpenImpressum} className="hover:text-white transition-colors">Datenschutz</button></li>
+              <li><button onClick={onOpenImpressum} className="hover:text-white transition-colors">AGB</button></li>
             </ul>
           </div>
         </div>

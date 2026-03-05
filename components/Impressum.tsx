@@ -18,46 +18,46 @@ const Impressum: React.FC<ImpressumProps> = ({ onClose }) => {
         <div className="p-8 prose prose-slate">
           <h3>Angaben gemäß § 5 TMG</h3>
           <p>
-            <strong>Fliesenleger Stellenangebote GmbH (Musterfirma)</strong><br />
-            Handwerkerstraße 1<br />
-            10115 Berlin<br />
+            <strong>Social Media Venture GmbH</strong><br />
+            Schliemannstraße 23<br />
+            10437 Berlin<br />
             Deutschland
           </p>
 
           <p>
             <strong>Vertreten durch:</strong><br />
-            Max Mustermann (Geschäftsführer)
+            Thomas Sander (Geschäftsführer)
           </p>
 
           <h3>Kontakt</h3>
           <p>
-            Telefon: +49 (0) 30 12345678<br />
-            E-Mail: kontakt@fliesenleger-stellenangebote.de
+            Telefon: <a href="tel:+4930959988700">+49 30 959 988 700</a><br />
+            E-Mail: <a href="mailto:info@socialmediaventure.com">info@socialmediaventure.com</a>
           </p>
 
           <h3>Registereintrag</h3>
           <p>
             Eintragung im Handelsregister.<br />
-            Registergericht: Amtsgericht Charlottenburg<br />
-            Registernummer: HRB 123456
+            Registergericht: Amtsgericht Berlin-Charlottenburg<br />
+            Registernummer: HRB 162557 B
           </p>
 
           <h3>Umsatzsteuer-ID</h3>
           <p>
             Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:<br />
-            DE 123 456 789
+            DE298885799
           </p>
 
           <h3>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV</h3>
           <p>
-            Max Mustermann<br />
-            Handwerkerstraße 1<br />
-            10115 Berlin
+            Thomas Sander<br />
+            Schliemannstraße 23<br />
+            10437 Berlin
           </p>
 
-          <hr />
-          <p className="text-sm text-slate-500 italic">
-            Dies ist ein Platzhalter-Impressum für Demonstrationszwecke der erstellten Website.
+          <h3>Verbraucherstreitbeilegung</h3>
+          <p>
+            Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
           </p>
         </div>
       </div>
